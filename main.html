@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>해양 플랫폼 1위 - 배밥</title>
+    <style>
+      h1 {
+        margin : 0px;
+        font-size : 40px;
+      }
+      #grid {
+        display : grid;
+        grid-template-columns : 1fr 500px;
+      }
+      #list {
+        border : 3px black solid;
+        padding : 3px;
+        text-align : center;
+      }
+      #list li {
+        display : inline;
+        padding : 20px;
+      }
+      #mainbusik {
+        border : 4px black solid;
+        width : 500px;
+        margin : 200px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+      }
+      .country, .city {
+        display : block;
+        width : 90%;
+        margin : 5px;
+        padding-left : 5px;
+        font-size : 18px;
+      }
+      .search {
+        font-size : 20px;
+        margin-left : 400px;
+      }
+      .search:hover {
+        background-color: skyblue;
+        color: black;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+    <h1><a href="">배밥</a></h1>
+      <ul id="list">
+        <li><a href="">배밥파트너</a></li>
+        <li><a href="">도움말</a></li>
+        <li><a href="">회원가입</a></li>
+        <li><a href="">로그인</a></li>
+      </ul>
+    </div>
+  <div id="mainbusik">
+    <h2>부식 견적을<br>
+    비교해 보세요.</h2>
+    입항 나라<br>
+    <input class="country" type="text"  value="대한민국"><br>
+    입항 도시<br>
+    <input class="city" type="text"  value="부산"><br>
+    <input class="search" type="button"  value="검색">
+  </div>
+  </body>
+</html>
